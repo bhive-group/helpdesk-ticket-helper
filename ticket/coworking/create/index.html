@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BHIVE Support Ticket</title>
+  <title>CoWorking - BHIVE Support Ticket</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google tag (gtag.js) -->
@@ -77,6 +77,9 @@
     });
 
     if (!allPresent) {
+      console.log(">", requiredParams);
+      console.log(">>", params);
+
       // Display a simple 404 error message if parameters are missing
       document.body.innerHTML = `
         <div class="error">
